@@ -1,0 +1,16 @@
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.pdb
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.pdb
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.csprojResolveAssemblyReference.cache
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.dll
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.pdb
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.csprojResolveAssemblyReference.cache
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.csproj.CoreCompileInputs.cache
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.dll
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.pdb
+E:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.dll
+E:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\bin\Debug\ProjetoLoterica.Domain.pdb
+E:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.csprojResolveAssemblyReference.cache
+E:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.dll
+E:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.Domain\obj\Debug\ProjetoLoterica.Domain.pdb

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="99081f2c-fdcf-4ae2-85bf-bc275ae88809" ChangeDateTime="05/18/2018 04:18:28">
+    <Property Name="ElementName" Value="[dbo].[TBBolao].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBBolao]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdBolao" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="09fb16d3-0507-40dc-aba4-3fa34a113e85" ChangeDateTime="05/18/2018 04:19:04">
+    <Property Name="ElementName" Value="[dbo].[TBConcurso].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBConcurso]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdConcurso" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2793ccd5-1da4-4a06-aa19-5a86b562159e" ChangeDateTime="05/18/2018 04:21:01">
+    <Property Name="ElementName" Value="[dbo].[TBAposta].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBAposta]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdAposta" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a380856a-0020-4d71-b76b-7a1e37ea8937" ChangeDateTime="05/18/2018 04:27:10">
+    <Property Name="ElementName" Value="[dbo].[TBDezena].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBDezena]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdDezena" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0827c0a5-e697-4682-a598-5eb2f5dee130" ChangeDateTime="05/18/2018 04:36:09">
+    <Property Name="ElementName" Value="[dbo].[TBGanhador].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBGanhador]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdGanhador" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="30d23c6c-9ed1-4e09-90a7-264d565694c8" ChangeDateTime="05/18/2018 04:44:38">
+    <Property Name="ElementName" Value="[dbo].[TBResultado].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBResultado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdResultado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53b83d94-5f38-40a2-9976-36044dd76eee" ChangeDateTime="05/18/2018 04:49:28">
+    <Property Name="ElementName" Value="[dbo].[TBResultado].[GanhadorId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBResultado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConcursoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9cfaec2-3b5b-4997-be61-a513f87ba140" ChangeDateTime="05/18/2018 05:05:08">
+    <Property Name="ElementName" Value="[dbo].[TBResultado].[ResultadoConcurso]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBResultado]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ValorLoterica" />
+  </Operation>
+</Operations>

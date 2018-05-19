@@ -1,0 +1,5 @@
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Infra\bin\Debug\ProjetoLoterica.Infra.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Infra\bin\Debug\ProjetoLoterica.Infra.pdb
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Infra\obj\Debug\ProjetoLoterica.Infra.csprojResolveAssemblyReference.cache
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Infra\obj\Debug\ProjetoLoterica.Infra.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Infra\obj\Debug\ProjetoLoterica.Infra.pdb

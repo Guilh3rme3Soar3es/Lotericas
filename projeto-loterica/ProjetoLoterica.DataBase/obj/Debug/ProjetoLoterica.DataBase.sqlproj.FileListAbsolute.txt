@@ -1,0 +1,16 @@
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.dacpac
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.dll
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.pdb
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.sqlprojResolveAssemblyReference.cache
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\Model.xml
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\refactor.xml
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\postdeploy.sql
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\predeploy.sql
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.dll
+J:\projeto-loterica\projeto-loterica\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.pdb
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.dacpac
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\bin\Debug\ProjetoLoterica.DataBase.pdb
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.sqlprojResolveAssemblyReference.cache
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.dll
+C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.DataBase\obj\Debug\ProjetoLoterica.DataBase.pdb

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{093BA4A2-BA29-4833-AED0-7D3C611292F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjetoLoterica.Domain</RootNamespace>
+    <AssemblyName>ProjetoLoterica.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\Apostas\ApostaInvalidContestException.cs" />
+    <Compile Include="Features\Apostas\ApostaInvalidDozensException.cs" />
+    <Compile Include="Exceptions\BusinessException.cs" />
+    <Compile Include="Common\Entity.cs" />
+    <Compile Include="Exceptions\IdentifierUndefinedException.cs" />
+    <Compile Include="Exceptions\UnsupportedOperationException.cs" />
+    <Compile Include="Features\Apostas\Aposta.cs" />
+    <Compile Include="Features\Apostas\ApostaInvalidTotalValueException.cs" />
+    <Compile Include="Features\Apostas\ApostaInvalidValueException.cs" />
+    <Compile Include="Features\Dezenas\Dezena.cs" />
+    <Compile Include="Features\Dezenas\DezenaInvalidApostaException.cs" />
+    <Compile Include="Features\Dezenas\DezenaInvalidValueException.cs" />
+    <Compile Include="Features\Ganhadores\Ganhador.cs" />
+    <Compile Include="Features\Apostas\IApostaRepository.cs" />
+    <Compile Include="Features\Boloes\Bolao.cs" />
+    <Compile Include="Features\Boloes\BolaoListApostasEmptyException.cs" />
+    <Compile Include="Features\Boloes\BolaoListNullException.cs" />
+    <Compile Include="Features\Boloes\BolaoNoAmountOfBetsException.cs" />
+    <Compile Include="Features\Boloes\IBolaoRepository.cs" />
+    <Compile Include="Features\Concursos\Concurso.cs" />
+    <Compile Include="Features\Concursos\ConcursoInvalidBetsException.cs" />
+    <Compile Include="Features\Concursos\ConcursoInvalidNumberException.cs" />
+    <Compile Include="Features\Concursos\IConcursoRepository.cs" />
+    <Compile Include="Features\Dezenas\IDezenaRepository.cs" />
+    <Compile Include="Features\Ganhadores\GanhadorBetNullException.cs" />
+    <Compile Include="Features\Ganhadores\GanhadorInvalidPremiumException.cs" />
+    <Compile Include="Features\Ganhadores\GanhadorNullContestException.cs" />
+    <Compile Include="Features\Ganhadores\IGanhadorRepository.cs" />
+    <Compile Include="Features\Resultados\IResultadoRepository.cs" />
+    <Compile Include="Features\Resultados\Resultado.cs" />
+    <Compile Include="Features\Resultados\ResultadoConcursoNullException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

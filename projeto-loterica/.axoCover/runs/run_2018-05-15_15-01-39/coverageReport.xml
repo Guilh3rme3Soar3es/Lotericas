@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="39" visitedSequencePoints="33" numBranchPoints="21" visitedBranchPoints="18" sequenceCoverage="84.62" branchCoverage="85.71" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" maxCrapScore="4" minCrapScore="1" visitedClasses="3" numClasses="6" visitedMethods="6" numMethods="9" />
+  <Modules>
+    <Module hash="97-E2-E7-09-B2-CB-91-02-F6-98-A5-6C-30-97-EC-0B-25-3D-0A-E5">
+      <Summary numSequencePoints="32" visitedSequencePoints="26" numBranchPoints="19" visitedBranchPoints="16" sequenceCoverage="81.25" branchCoverage="84.21" maxCyclomaticComplexity="4" minCyclomaticComplexity="0" maxCrapScore="4" minCrapScore="0" visitedClasses="2" numClasses="5" visitedMethods="4" numMethods="7" />
+      <ModulePath>C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoteria.Domain.Tests\bin\Debug\ProjetoLoterica.Domain.dll</ModulePath>
+      <ModuleTime>2018-05-15T18:00:36.2170315Z</ModuleTime>
+      <ModuleName>ProjetoLoterica.Domain</ModuleName>
+      <Files>
+        <File uid="4" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\Features\Resultados\Resultados.cs" />
+        <File uid="5" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\Features\Concursos\Concurso.cs" />
+        <File uid="6" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\Features\Boloes\Bolao.cs" />
+        <File uid="9" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\Features\Apostas\Aposta.cs" />
+        <File uid="12" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Domain\Features\Apostas\Dezenas\Dezena.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>ProjetoLoterica.Domain.Common.Entity</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Common.Entity::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>ProjetoLoterica.Domain.Features.Resultados.Resultados</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Concursos.Concurso ProjetoLoterica.Domain.Features.Resultados.Resultados::get__Concurso()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__Concurso(ProjetoLoterica.Domain.Features.Concursos.Concurso)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena&gt; ProjetoLoterica.Domain.Features.Resultados.Resultados::get__Resultado()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__Resultado(System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena&gt;)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Resultados.Resultados::get__ValorTotal()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__ValorTotal(System.Double)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Resultados.Resultados::get__ValorSena()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__ValorSena(System.Double)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Resultados.Resultados::get__ValorQuina()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__ValorQuina(System.Double)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Resultados.Resultados::get__ValorQuadra()</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::set__ValorQuadra(System.Double)</Name>
+              <FileRef uid="4" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::Validate()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="3" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="49" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="2" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Resultados.Resultados::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>ProjetoLoterica.Domain.Features.Concursos.Concurso</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Int64 ProjetoLoterica.Domain.Features.Concursos.Concurso::get__Numero()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Concursos.Concurso::set__Numero(System.Int64)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Aposta&gt; ProjetoLoterica.Domain.Features.Concursos.Concurso::get__Apostas()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Concursos.Concurso::set__Apostas(System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Aposta&gt;)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Concursos.Concurso::Validate()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="5" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="6" ordinal="1" offset="1" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="5" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Concursos.Concurso::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="7" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>ProjetoLoterica.Domain.Features.Boloes.Bolao</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Boloes.Bolao::get__ValorTotal()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Boloes.Bolao::set__ValorTotal(System.Double)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Aposta&gt; ProjetoLoterica.Domain.Features.Boloes.Bolao::get__Aposta()</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Boloes.Bolao::set__Aposta(System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Aposta&gt;)</Name>
+              <FileRef uid="6" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Boloes.Bolao::Validate()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="8" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="9" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="49" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="8" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Boloes.Bolao::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="10" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="18" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" maxCrapScore="4" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>ProjetoLoterica.Domain.Features.Apostas.Aposta</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663330</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Concursos.Concurso ProjetoLoterica.Domain.Features.Apostas.Aposta::get__Concurso()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::set__Concurso(ProjetoLoterica.Domain.Features.Concursos.Concurso)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Apostas.Aposta::get_Valor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::set_Valor(System.Double)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Double ProjetoLoterica.Domain.Features.Apostas.Aposta::get_ValorTotal()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::set_ValorTotal(System.Double)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena&gt; ProjetoLoterica.Domain.Features.Apostas.Aposta::get__Dezenas()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::set__Dezenas(System.Collections.Generic.List`1&lt;ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena&gt;)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663338</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Boloes.Bolao ProjetoLoterica.Domain.Features.Apostas.Aposta::get__Bolao()</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::set__Bolao(ProjetoLoterica.Domain.Features.Boloes.Bolao)</Name>
+              <FileRef uid="9" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::.ctor()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="11" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="24" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="8" uspid="12" ordinal="1" offset="7" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="8" uspid="13" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="27" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="8" uspid="14" ordinal="3" offset="15" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="11" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="24" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="100" branchCoverage="100" crapScore="4" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::Validate()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="15" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="4" uspid="16" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="28" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="17" ordinal="2" offset="25" sl="30" sc="17" el="30" ec="57" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="3" uspid="18" ordinal="3" offset="31" sl="31" sc="13" el="31" ec="37" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="19" ordinal="4" offset="52" sl="32" sc="17" el="32" ec="58" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="2" uspid="20" ordinal="5" offset="58" sl="33" sc="13" el="33" ec="35" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="21" ordinal="6" offset="71" sl="34" sc="13" el="34" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="22" ordinal="7" offset="72" sl="35" sc="17" el="35" ec="59" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="23" ordinal="8" offset="78" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="24" ordinal="0" offset="23" sl="29" path="0" offsetend="25" fileid="9" />
+                <BranchPoint vc="3" uspid="25" ordinal="1" offset="23" sl="29" path="1" offsetend="31" fileid="9" />
+                <BranchPoint vc="1" uspid="26" ordinal="2" offset="50" sl="31" path="0" offsetend="52" fileid="9" />
+                <BranchPoint vc="2" uspid="27" ordinal="3" offset="50" sl="31" path="1" offsetend="58" fileid="9" />
+                <BranchPoint vc="1" uspid="28" ordinal="4" offset="69" sl="33" path="0" offsetend="71" fileid="9" />
+                <BranchPoint vc="1" uspid="29" ordinal="5" offset="69" sl="33" path="1" offsetend="78" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="15" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Aposta::EstaNoBolao()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="9" uspid="30" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="9" uspid="31" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="32" bec="2" bev="2" fileid="9" />
+                <SequencePoint vc="1" uspid="32" ordinal="2" offset="14" sl="44" sc="17" el="44" ec="55" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="8" uspid="33" ordinal="3" offset="46" sl="46" sc="17" el="46" ec="36" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="9" uspid="34" ordinal="4" offset="59" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="35" ordinal="0" offset="12" sl="43" path="0" offsetend="14" fileid="9" />
+                <BranchPoint vc="8" uspid="36" ordinal="1" offset="12" sl="43" path="1" offsetend="46" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="9" uspid="30" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" maxCrapScore="4" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663345</MetadataToken>
+              <Name>System.Int32 ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::get__Dezena()</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663346</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::set__Dezena(System.Int32)</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663347</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Apostas.Aposta ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::get_Aposta()</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663348</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::set_Aposta(ProjetoLoterica.Domain.Features.Apostas.Aposta)</Name>
+              <FileRef uid="12" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="4" sequenceCoverage="100" branchCoverage="100" crapScore="4" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663349</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::Validate()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="37" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="3" uspid="38" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="43" bec="2" bev="2" fileid="12" />
+                <SequencePoint vc="1" uspid="39" ordinal="2" offset="27" sl="19" sc="13" el="19" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="40" ordinal="3" offset="28" sl="20" sc="17" el="20" ec="57" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="41" ordinal="4" offset="34" sl="22" sc="13" el="22" ec="31" bec="2" bev="2" fileid="12" />
+                <SequencePoint vc="1" uspid="42" ordinal="5" offset="47" sl="23" sc="13" el="23" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="43" ordinal="6" offset="48" sl="24" sc="17" el="24" ec="58" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="44" ordinal="7" offset="54" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="47" ordinal="2" offset="25" sl="18" path="0" offsetend="27" fileid="12" />
+                <BranchPoint vc="2" uspid="48" ordinal="3" offset="25" sl="18" path="1" offsetend="34" fileid="12" />
+                <BranchPoint vc="1" uspid="49" ordinal="4" offset="45" sl="22" path="0" offsetend="47" fileid="12" />
+                <BranchPoint vc="1" uspid="50" ordinal="5" offset="45" sl="22" path="1" offsetend="54" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="37" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663350</MetadataToken>
+              <Name>System.Void ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="51" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="C9-4A-FD-71-13-16-7B-9A-2D-EB-A3-DD-30-C3-DD-17-FA-1B-8C-FF">
+      <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoteria.Domain.Tests\bin\Debug\ProjetoLoterica.Common.Tests.dll</ModulePath>
+      <ModuleTime>2018-05-15T18:00:36.3653349Z</ModuleTime>
+      <ModuleName>ProjetoLoterica.Common.Tests</ModuleName>
+      <Files>
+        <File uid="29" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Common.Tests\Common\Features\Apostas\ObjectMother.cs" />
+        <File uid="30" fullPath="C:\Users\ndduser\Desktop\AcademiaProgramador2018\Dupla 14\projeto-loterica\ProjetoLoterica.Common.Tests\Common\Features\Dezenas\ObjectMother.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>ProjetoLoterica.Common.Tests.ObjectMothers.ObjectMother</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Apostas.Aposta ProjetoLoterica.Common.Tests.ObjectMothers.ObjectMother::GetAposta(ProjetoLoterica.Domain.Features.Boloes.Bolao,ProjetoLoterica.Domain.Features.Concursos.Concurso)</Name>
+              <FileRef uid="29" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="52" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="5" uspid="53" ordinal="1" offset="1" sl="18" sc="13" el="26" ec="15" bec="0" bev="0" fileid="29" />
+                <SequencePoint vc="5" uspid="54" ordinal="2" offset="77" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="29" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="52" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="29" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>ProjetoLoterica.Domain.Features.Apostas.Dezenas.Dezena ProjetoLoterica.Common.Tests.ObjectMothers.ObjectMother::GetDezenas(ProjetoLoterica.Domain.Features.Apostas.Aposta)</Name>
+              <FileRef uid="30" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="55" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="3" uspid="56" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="74" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="3" uspid="57" ordinal="2" offset="24" sl="20" sc="13" el="20" ec="27" bec="0" bev="0" fileid="30" />
+                <SequencePoint vc="3" uspid="58" ordinal="3" offset="28" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="30" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="55" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="30" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
